@@ -1,0 +1,333 @@
+<link rel="stylesheet" href="./css/dashboard.css"></link>
+<div class="page">
+	<div class="main-content app-content">
+    
+    <nav class="navbar navbar-expand-lg px-4 navbar-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor03">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+    
+<div class="container-fluid">
+  
+  
+  <!-- breadcrumb -->
+				<div class="breadcrumb-header justify-content-between">
+					<div class="left-content">
+						<div>
+							<h5 class="pl-4 main-content-title mb-0 tx-24 mg-b-1 mg-b-lg-1">Dashboard</h5>
+						</div>
+					</div>
+					<div class="main-dashboard-header-right">
+						<div class="d-flex my-xl-auto right-content">
+							<div class="pr-1 mb-xl-0">
+								<label class="rdiobox btn btn-warning mr-2"><input name="rdio" id="graphDV" type="radio"> <span>Graph</span></label>
+							</div>
+							<div class="pr-1 mb-xl-0">
+								<label class="rdiobox btn btn-danger mr-2"><input name="rdio" id="mapDV" type="radio"> <span>Map</span></label>
+							</div>
+							<div class="pr-1 mb-xl-0">
+								<label class="rdiobox btn btn-success mr-2"><input name="rdio" id="tableDV" type="radio"> <span>Table</span></label>
+							</div>
+							<div class="pr-1 mb-xl-0 right-toggle">
+								<button type="button" class="btn btn-info btn-icon mr-2" data-toggle="sidebar-right" data-target=".sidebar-right"><i class="mdi mdi-filter-variant"></i></button>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!-- /breadcrumb -->
+  
+  
+  
+  <!-- optional -->
+				<div class="row boxDsh">
+					<div class="col-md-2">
+
+						<div class="card  jsplgrad" id="card1">
+							<div class="card-body">
+								<div class="counter-status md-mb-0 text-center">
+									<input type="radio" id="radioJSLPS" name="radio-group">
+									<label for="radioJSLPS"></label>
+									<div class="counter-icon">
+										<i class="icon icon-people">
+											<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Jharkhand_Rajakiya_Chihna.svg/48px-Jharkhand_Rajakiya_Chihna.svg.png" />
+										</i>
+									</div>
+									<div class="ml-auto text-center">
+										<h4 class="tx-16  mt-3 mb-0 text-center text-white">Total Beneficiary</h4>
+									</div>
+								</div>
+							</div>
+							<div class="ml-auto text-center card-price py-4">
+								<h4 class="counter mb-0 text-white">21,361</h4>
+							</div>
+						</div>
+
+						
+					</div>
+					<div class="col">
+						<div class="card  bg-primary-gradient" id="card2">
+							<div class="card-body">
+								<div class="counter-status md-mb-0 text-center">
+									<input type="radio" id="radio1" name="radio-group">
+									<label for="radio1"></label>
+									<div class="counter-icon">
+										<i class="icon icon-people">
+											<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Jharkhand_Rajakiya_Chihna.svg/48px-Jharkhand_Rajakiya_Chihna.svg.png" />
+										</i>
+									</div>
+									<div class="ml-auto text-center">
+										<h4 class="tx-16  mt-2 mb-0 text-center text-white">NRLM</h4>
+									</div>
+								</div>
+							</div>
+							<div class="ml-auto text-center card-price">
+								<span class="totalBnf">Total Beneficiary</span>
+								<h4 class="counter mb-0 text-white">21,000</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card  bg-danger-gradient" id="card3">
+							<div class="card-body">
+								<input type="radio" id="radio2" name="radio-group">
+								<label for="radio2"></label>
+								<div class="counter-status md-mb-0 text-center">
+									<div class="counter-icon text-warning">
+										<i class="icon icon-rocket">
+										<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Jharkhand_Rajakiya_Chihna.svg/48px-Jharkhand_Rajakiya_Chihna.svg.png" />
+										</i>
+									</div>
+									<div class="ml-auto text-center">
+										<h5 class="tx-16  mt-2 mb-0 text-center text-white">MKSP</h5>
+
+									</div>
+								</div>
+							</div>
+							<div class="ml-auto text-center card-price">
+								<span class="totalBnf">Total Beneficiary</span>
+								<h4 class="counter mb-0 text-white">5,469</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card  bg-success-gradient" id="card4">
+							<div class="card-body">
+								<input type="radio" id="radio3" name="radio-group">
+								<label for="radio3"></label>
+								<div class="counter-status md-mb-0 text-center">
+									<div class="counter-icon text-primary">
+										<i class="icon icon-docs">
+											<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Jharkhand_Rajakiya_Chihna.svg/48px-Jharkhand_Rajakiya_Chihna.svg.png" />
+										</i>
+									</div>
+									<div class="ml-auto text-right">
+										<h5 class="tx-16  mt-2 mb-0 text-center text-white">JICA</h5>
+									</div>
+								</div>
+							</div>
+
+							<div class="ml-auto text-center card-price">
+								<span class="totalBnf">Total Beneficiary</span>
+								<h4 class="counter mb-0 text-white">1,869</h4>
+							</div>
+
+						</div>
+					</div>
+					<div class="col">
+						<div class="card  bg-warning-gradient" id="card5">
+							<div class="card-body">
+								<input type="radio" id="radio4" name="radio-group">
+								<label for="radio4"></label>
+								<div class="counter-status md-mb-0 text-center">
+									<div class="counter-icon text-success">
+										<i class="icon icon-emotsmile">
+										<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Jharkhand_Rajakiya_Chihna.svg/48px-Jharkhand_Rajakiya_Chihna.svg.png" />
+										</i>
+									</div>
+									<div class="ml-auto text-center">
+										<h5 class="tx-16  mt-2 mb-0 text-center text-white">JOHAR</h5>
+									</div>
+								</div>
+							</div>
+							<div class="ml-auto text-center card-price">
+								<span class="totalBnf">Total Beneficiary</span>
+								<h4 class="counter mb-0 text-white">1,549</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card  bg-purple-gradient" id="card6">
+							<div class="card-body">
+								<input type="radio" id="radio5" name="radio-group">
+								<label for="radio5"></label>
+								<div class="counter-status md-mb-0 text-center">
+									<div class="counter-icon">
+										<i class="icon icon-people">
+											<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Jharkhand_Rajakiya_Chihna.svg/48px-Jharkhand_Rajakiya_Chihna.svg.png" />
+										</i>
+									</div>
+									<div class="ml-auto text-right">
+										<h5 class="tx-16  mt-2 mb-0 text-center text-white">Didi Badi</h5>
+									</div>
+								</div>
+							</div>
+							<div class="ml-auto text-center card-price">
+								<span class="totalBnf">Total Beneficiary</span>
+								<h4 class="counter mb-0 text-white">1,879</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card  bgorange" id="card7">
+							<div class="card-body">
+								<input type="radio" id="radio6" name="radio-group">
+								<label for="radio6"></label>
+								<div class="counter-status md-mb-0 text-center">
+									<div class="counter-icon text-warning">
+										<i class="icon icon-rocket">
+											<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Jharkhand_Rajakiya_Chihna.svg/48px-Jharkhand_Rajakiya_Chihna.svg.png" />
+										</i>
+									</div>
+									<div class="ml-auto text-right">
+										<h5 class="tx-16  mt-2 mb-0 text-center text-white">PJAA</h5>
+									</div>
+								</div>
+							</div>
+							<div class="ml-auto text-center card-price">
+								<span class="totalBnf">Total Beneficiary</span>
+								<h4 class="counter mb-0 text-white">7,577</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card  bg-danger-gradient" id="card8">
+							<div class="card-body">
+								<input type="radio" id="radio7" name="radio-group">
+								<label for="radio7"></label>
+								<div class="counter-status md-mb-0 text-center">
+									<div class="counter-icon text-primary">
+										<i class="icon icon-docs">
+											<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Jharkhand_Rajakiya_Chihna.svg/48px-Jharkhand_Rajakiya_Chihna.svg.png" />
+										</i>
+									</div>
+									<div class="ml-auto text-center">
+										<h5 class="tx-16  mt-2 mb-0 text-center text-white">Umang</h5>
+									</div>
+								</div>
+							</div>
+							<div class="ml-auto text-center card-price">
+								<span class="totalBnf">Total Beneficiary</span>
+								<h4 class="counter mb-0 text-white">2,449</h4>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!-- optional -->
+  
+   <div class="row h-100 my-4">
+    <div class="col-md-4">
+        <div class="card card-height-100">
+            <div class="card-header align-items-center d-flex">
+                <h6 class="card-title mb-0 flex-grow-1">Sessions by Countries</h6>
+                <div>
+                    <button type="button" class="btn btn-soft-secondary btn-sm">
+                        ALL
+                    </button>
+                    <button type="button" class="btn btn-soft-primary btn-sm">
+                        1M
+                    </button>
+                    <button type="button" class="btn btn-soft-secondary btn-sm">
+                        6M
+                    </button>
+                </div>
+            </div>
+            <div class="card-body p-0">
+               <div id="chart1">
+  <div id="apex-chart"></div>
+</div>
+            </div>
+            <!-- end card body -->
+        </div>
+        <!-- end card -->
+    </div>
+    <!-- end col-->
+    <div class="col-md-4">
+      <div class="card card-height-100">
+            <div class="card-header align-items-center d-flex">
+                <h6 class="card-title mb-0 flex-grow-1">Sessions by Countries</h6>
+                <div>
+                    <button type="button" class="btn btn-soft-secondary btn-sm">
+                        ALL
+                    </button>
+                    <button type="button" class="btn btn-soft-primary btn-sm">
+                        1M
+                    </button>
+                    <button type="button" class="btn btn-soft-secondary btn-sm">
+                        6M
+                    </button>
+                </div>
+            </div>
+            <div class="card-body p-0">
+               <div id="chart" class="ct"></div>
+            </div>
+            <!-- end card body -->
+        </div>
+      
+    </div>
+    
+     <div class="col-md-4">
+        <div class="card card-height-100">
+            <div class="card-header align-items-center d-flex">
+                <h6 class="card-title mb-0 flex-grow-1">Sessions by Countries</h6>
+                <div>
+                    <button type="button" class="btn btn-soft-secondary btn-sm">
+                        ALL
+                    </button>
+                    <button type="button" class="btn btn-soft-primary btn-sm">
+                        1M
+                    </button>
+                    <button type="button" class="btn btn-soft-secondary btn-sm">
+                        6M
+                    </button>
+                </div>
+            </div>
+            <div class="card-body p-0">
+               <div id="chart7"></div>
+            </div>
+            <!-- end card body -->
+        </div>
+        <!-- end card -->
+    </div>
+    <!-- end col-->
+   
+</div>
+  
+    </div>
+    </div>
+  </div>
+  <script src="./js/dashboard.js"></script>
